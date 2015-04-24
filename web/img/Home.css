@@ -1,0 +1,41 @@
+body{
+    background-color: azure;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    font-family: Kaiti,sans-serif;
+    font-size: 20px;
+}
+
+#DMI{
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #031122;
+    width: 640px;
+    height: 480px;
+    align-self: center;
+}
+.A{
+    width: 54px;
+    height: 300px;
+}
+.B{
+    width: 280px;
+    height: 300px;
+}
+.D{
+    width: 244px;
+    height: 300px;
+}
+.F{
+    width: 62px;
+
+}
+.button{
+    font-family: YouYuan, sans-serif;
+    font-size: 16px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>北京交通大学列控培训系统</title>
+    <link rel="stylesheet" type="text/css" href="img/Home.css">
+</head>
+<body onload="绘制速度表盘()">
+<h1>
+    北京交通大学列控培训系统
+</h1>
+
+<h2>
+    开发者：许镇&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp学号：11213054
+</h2>
+
+<div class="DMIDiv">
+    <table id="DMI" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="A">A</td>
+            <td class="B">
+                <canvas id="速度信息区" width="280" height="300">
+                    Your browser does not support the canvas element.
+                </canvas>
+            </td>
+            <td class="D">D</td>
+            <td class="F">
+            <input type="button" style="width:62px;height:60px;" value="数据" class="button"></input>
+            <input type="button" style="width:62px;height:60px;" value="模式" class="button"></input>
+            <input type="button" style="width:62px;height:60px;" value="载频" class="button"></input>
+            <input type="button" style="width:62px;height:60px;" value="等级" class="button"></input>
+            <input type="button" style="width:62px;height:60px;" value="其他" class="button"></input>
+            </td>
+        </tr>
+        <tr>
+            <td class="C">C</td>
+            <td class="E">E</td>
+            <td class="E">E</td>
+            <td class="F">
+            <input type="button" style="width:62px;height:60px;" value="启动" class="button"></input>
+            <input type="button" style="width:62px;height:60px;" value="缓解" class="button"></input>
+            <input type="button" style="width:62px;height:60px;" value="警惕" class="button"></input>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="DriveDiv">
+
+</div>
+<script type="text/javascript" src="速度信息区绘制.js"></script>
+</body>
+
+</html>
